@@ -1,0 +1,187 @@
+* {
+	margin: 0;
+	padding: 0;
+	border: 0;
+
+	outline: none;
+	text-decoration: none;
+	outline: none;
+
+	font-family: 'Poppins', sans-serif;
+    box-sizing: border-box;
+	}
+
+ol,
+ul,
+li {
+	list-style: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+a img {
+	border: none;
+}
+
+button,
+a {
+	cursor: pointer;
+	color: inherit;
+}
+
+textarea {
+	resize: none;
+}
+
+textarea,
+select {
+	appearance: none !important;
+	-webkit-appearance: none !important;
+	border-radius: 0;
+}
+
+body {
+    
+    background-color: #242d38;
+}
+
+.topnav {
+    position: fixed;
+    
+    width: 100%;
+    height: 60px;
+    
+    background-color: #242d38;
+    border-bottom: 1px solid #efd592;
+
+    z-index: 20;
+}
+
+.brand {
+    
+    position:absolute;
+    left: 12px;
+    top: 2.5px;
+    
+    font-size: 36px;
+    font-weight: 400;
+    text-transform: uppercase;
+    
+    color: #efd592;    
+    
+}
+
+.topnav button.material-icons.md-36 {
+    
+    position:absolute;
+    top: 18px;
+    right: 18px;
+
+    color: #efd592;
+    background-color: #242d38;
+    font-size: 24px;    
+  
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;  
+    
+    align-items: center;
+    justify-content: center;     
+
+    max-width: 1000px;
+    margin: auto;
+}
+
+.card {
+    
+    position: relative;
+
+    width: 400px;
+    height: 450px;
+    margin: 45px 10px;
+    background-color: #efd592;
+}
+
+.number {
+    display: flex;
+    position:absolute;
+    top: -20px;
+    left: 50%;
+    transform: translate(-50%);
+
+    justify-content: center;
+    align-items: center;
+
+    width: 40px;
+    height: 40px;
+    border: 0.15rem solid #242d38;
+    
+   
+    background-color: #efd592;
+    color:#242d38;
+
+    font-size: 24px;
+    font-weight: 400;
+}
+
+.textcontainer {
+    margin: 40px;
+}
+
+.title {
+    padding-bottom: 10px;
+    
+    color: #242d38;
+    
+    font-size: 36px;
+}
+
+.sub {
+    
+    padding-top: 20px;
+    color: #242d38;
+    
+    font-size: 18px;
+    font-weight: 400;
+    
+}
+
+.text {
+    padding: 20px 0;
+    color: #242d38;
+    
+    border-top: 0.1rem solid #242d38;
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.card button {
+    position: absolute;
+    bottom: -30px;
+    left: 50%;
+    transform: translate(-50%);
+
+    width: calc(100% - 40px);
+    height: 60px;
+
+    font-size: 14px;
+
+    background-color: #242d38;
+    color:#efd592;
+
+    border: 0.15em solid #efd592;
+}
+
+button:hover {
+    background-color: #efd592;
+    color:#242d38;
+    border: 0.15em solid #242d38;
+    
+}
+
+button:hover .material-icons.md-36 {
+    color:#242d38;
+}
